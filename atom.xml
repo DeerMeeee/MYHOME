@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>All of my favorites</title>
+  
+  <subtitle>爱只会转移，绝不会消失</subtitle>
+  <link href="/MYHOME/atom.xml" rel="self"/>
+  
+  <link href="https://deermeeee.github.io/MYHOME/"/>
+  <updated>2025-07-31T06:49:57.699Z</updated>
+  <id>https://deermeeee.github.io/MYHOME/</id>
+  
+  <author>
+    <name>Deer Me</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://deermeeee.github.io/MYHOME/2025/07/31/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://deermeeee.github.io/MYHOME/2025/07/31/测试/</id>
+    <published>2025-07-30T16:00:00.000Z</published>
+    <updated>2025-07-31T06:49:57.699Z</updated>
+    
+    <content type="html"><![CDATA[<p>换了主题，看一下文章预览效果。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;换了主题，看一下文章预览效果。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="https://deermeeee.github.io/MYHOME/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="-新主题 -格式测试" scheme="https://deermeeee.github.io/MYHOME/tags/%E6%96%B0%E4%B8%BB%E9%A2%98-%E6%A0%BC%E5%BC%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://deermeeee.github.io/MYHOME/2025/07/31/%E6%B5%8B%E8%AF%952/"/>
+    <id>https://deermeeee.github.io/MYHOME/2025/07/31/测试2/</id>
+    <published>2025-07-30T16:00:00.000Z</published>
+    <updated>2025-07-31T08:05:18.707Z</updated>
+    
+    <content type="html"><![CDATA[<p>在Front-matter中添加了description字段，以生成摘要。</p>]]></content>
+    
+    <summary type="html">
+    
+      本文摘要测试
+    
+    </summary>
+    
+      <category term="测试" scheme="https://deermeeee.github.io/MYHOME/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="新主题" scheme="https://deermeeee.github.io/MYHOME/tags/%E6%96%B0%E4%B8%BB%E9%A2%98/"/>
+    
+      <category term="格式测试" scheme="https://deermeeee.github.io/MYHOME/tags/%E6%A0%BC%E5%BC%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
