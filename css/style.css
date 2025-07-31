@@ -553,8 +553,8 @@ nav i.icon-basic-eye {
 	border-bottom: none;
 }
 #blog-post .navbar-inner {
-	background-color: #fff;
-	background-color: rgba(255,255,255,.9);
+	background-color: #dfd1b7;
+	background-color: rgba(223,209,183,.9);
 }
 .lightnav .navbar-inner.lightnav-alt .nav > li > a,
 .lightnav .navbar-inner.lightnav-alt .learnmore {
@@ -2712,7 +2712,7 @@ ul.filters li p:hover {
 #portfolio-item #lightbox h4,
 #portfolio-item #lightbox p,
 #portfolio-item #lightbox .lb-data .close {
-	color: #fff;
+	color: #dfd1b7;
 	text-shadow: none;
 }
 /* Limit lightbox images that are wider than the screen,
@@ -2764,7 +2764,7 @@ ul.filters li p:hover {
 ******************************************************* */
 #mailinglist {
 	text-align: center;
-	background-color: #fff;
+	background-color: #dfd1b7;
 	z-index: 4;
 }
 #mailinglist h4 {
@@ -3062,7 +3062,7 @@ button.send{
 	box-shadow: none;
 }
 .well p {
-	color: #fff;
+	color: #dfd1b7;
 }
 
 
@@ -3272,7 +3272,7 @@ footer .footer_bottom {
 }
 .readMore a:hover {
 	background-color: gray;
-	color: #fff!important;
+	color: #dfd1b7!important;
 }
 .m-pagination a{
 	color: gray;
@@ -3289,7 +3289,7 @@ footer .footer_bottom {
 }
 .m-pagination a:hover{
 	background-color: gray;
-	color: #fff;
+	color: #dfd1b7;
 }
 
 .changeyan {
