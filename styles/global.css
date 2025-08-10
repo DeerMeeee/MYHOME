@@ -161,7 +161,7 @@ body {
   margin: 0 1rem;
 }
 #header .menu__item {
-  font: 2rem/1 'Microsoft JhengHei UI Light';
+  font: 2rem/1 'Microsoft YaHei UI';
   color: #7b3b3b;
   margin: 0 2rem;
 }
@@ -186,7 +186,7 @@ main {
 #footer {
   position: relative;
   width: 100%;
-  font: 1.3rem/1 'Microsoft JhengHei UI Light';
+  font: 1.3rem/1 'Microsoft YaHei UI';
   padding: 1.5rem;
   text-align: center;
 }
@@ -339,7 +339,7 @@ main {
   text-indent: 1em;
 }
 .post__content {
-  font: 1.5rem/2 '\5E7C\5706';
+  font: 1.5rem/2 'Microsoft YaHei UI';
 }
 .post__content h2 {
   margin-bottom: 1rem;
