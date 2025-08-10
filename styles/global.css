@@ -427,8 +427,9 @@ main {
   color: #666;
   letter-spacing: 2px;
 }
+.block__description,
 .block__excerpt {
-  text-align: left;
+  text-align: center;
   font: 1.4rem/1.75 'Microsoft Yahei Light';
   letter-spacing: 5px;
 }

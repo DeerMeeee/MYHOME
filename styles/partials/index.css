@@ -19,8 +19,9 @@
   color: font-color-normal;
   letter-spacing: 2px;
 }
+.block__description,
 .block__excerpt {
-  text-align: left;
+  text-align: center;
   font: font-small/1.75 text-font-en;
   letter-spacing: 5px;
 }
