@@ -1,26 +1,318 @@
-{% extends "_layout.swig" %}
-  {% block title %}
-    {{config.title}}
-    {% if config.subtitle %}
-      | {{ config.subtitle }}
-    {% endif %}
-  {% endblock %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="All of my favorites">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
 
-  {% block main %}
-    {% if page.type === 'about' %}
+
+  <meta name="subtitle" content="爱只会转移，绝不会消失">
+
+
+  <meta name="description" content="欢迎光临我的网站，我会在这里分享我在生活中总结出的一些小教程/我觉得有趣的事情/我找到的一些值得收藏的歌曲、句子或梗/还有我最重要的家产们！！！">
+
+
+  <meta name="keywords" content="生活;cp;同人;学习;终身学习" />
+
+
+
+<link rel="apple-touch-startup-image" media="(device-width: 375px)" href="assets/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(orientation: landscape)" href="assets/apple-touch-startup-image-2048x1496.png">
+
+<link rel="stylesheet" href="/MYHOME/style/style.css">
+
+<script>
+  var nlviconfig = {
+    title: "All of my favorites",
+    author: "Deer Me",
+    baseUrl: "/MYHOME/",
+    theme: {
+      scheme: "",
+      lightbox: ,
+      animate: ,
+      search: false,
+      friends: false,
+      reward: false,
+      pjax: false,
+      lazy: false,
+      toc: false
+    }
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+@font-face {
+  font-family: "Allura";
+  src: url('/MYHOME/font/allura/allura.ttf');
+}
+</style>
+
+  <title>
+    All of my favorites
+    
+      | 爱只会转移，绝不会消失
+    
+  </title>
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/MYHOME/atom.xml" title="All of my favorites" type="application/atom+xml">
+</head>
+<body>
+  <div class="container">
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn" style="display:none;">
+    <h1><a href="/MYHOME/">All of my favorites</a></h1>
+    
+      <span id="subtitle">爱只会转移，绝不会消失</span>
+    
+  </div>
+</div>
+
+    <nav class="main-nav">
+  
+</nav>
+
+  </div>
+</header>
+<div class="mobile-header" id="mobile-header">
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <div class="header-menu-line"></div>
+      </div>
+    </div>
+    <h1 class="mobile-header-title">
+      <a href="/">All of my favorites</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+  <div class="mobile-header-body">
+    <ul class="mobile-header-list">
+      
+    </ul>
+  </div>
+</div>
+
+
+
+    <div class="container-inner" style="display:none;">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+    
       <div class="about syuanpi fadeInRightShort">
-        <h2 class="title"> {{ __('nav.about') }} </h2>
+        <h2 class="title"> 关于 </h2>
         <div class="content">
-          {% if theme.self %}
-            {{ theme.self }}
-          {% else %}
-            {{ page.content }}
-          {% endif %}
+          
+            <h3 id="✨欢迎光临我的网站！✨"><a href="#✨欢迎光临我的网站！✨" class="headerlink" title="✨欢迎光临我的网站！✨"></a>✨欢迎光临我的网站！✨</h3><p>🤩我会在这里分享一些：<br>-好玩的小教程<br>-有趣的事情<br>-好看的电影、书籍（可能会有读书笔记啥的）<br>-好听的歌（是的我是牛民！！！<br>-还有我最重要的<strong>家产们</strong>💗！！！  </p>
+
+          
         </div>
       </div>
-      {% include "_partial/friendlink.swig" %}
-      {% include "_partial/_post/comments.swig" %}
-    {% else %}
-      {{ page.content }}
-    {% endif %}
-  {% endblock %}
+      
+      
+
+    
+  
+        </div>
+      </main>
+      <footer class="footer syuanpi fadeIn" id="footer">
+  <hr>
+  <div class="footer-wrapper">
+    <div class="left">
+      <div class="contact-icon">
+  
+  
+</div>
+
+    </div>
+    <div class="right">
+      <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span> ~ 2025</span>
+        <span>❤</span>
+        <span>Deer Me</span>
+    </div>
+    <div class="theme">
+        <span>
+            动力来源于
+            <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo </a>
+        </span>
+        <span>
+            主题
+            <a target="_blank" rel="noopener" href="https://github.com/ColMugX/hexo-theme-Nlvi"> Nlvi </a>
+        </span>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+</footer>
+    </div>
+    <div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-taglist">
+  
+    <div class="tagcloud-tag">
+      <button>敢由</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>m28</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>格式测试</button>
+    </div>
+  
+  </div>
+  
+    <div class="tagcloud-postlist active">
+      <h2>敢由</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/07/28/if仿生人/">
+            <time class="tagcloud-posttime">2025 / 07 / 28</time>
+            <span>【敢由】再会-if仿生人</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/07/25/剩下一个人的话/">
+            <time class="tagcloud-posttime">2025 / 07 / 25</time>
+            <span>【敢由】剩下一个人的话</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/06/27/刹那间-四季轮转/">
+            <time class="tagcloud-posttime">2025 / 06 / 27</time>
+            <span>刹那间，四季轮转</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/06/30/想要永远在一起/">
+            <time class="tagcloud-posttime">2025 / 06 / 30</time>
+            <span>【敢由】想要永远在一起</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>m28</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/07/25/剩下一个人的话/">
+            <time class="tagcloud-posttime">2025 / 07 / 25</time>
+            <span>【敢由】剩下一个人的话</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/06/27/刹那间-四季轮转/">
+            <time class="tagcloud-posttime">2025 / 06 / 27</time>
+            <span>刹那间，四季轮转</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/06/30/想要永远在一起/">
+            <time class="tagcloud-posttime">2025 / 06 / 30</time>
+            <span>【敢由】想要永远在一起</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>格式测试</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/07/31/图片测试/">
+            <time class="tagcloud-posttime">2025 / 07 / 31</time>
+            <span>图片测试</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/MYHOME/2025/07/31/测试2/">
+            <time class="tagcloud-posttime">2025 / 07 / 31</time>
+            <span>测试</span>
+          </a>
+        </div>
+      
+    </div>
+  
+</div>
+
+  </div>
+  <div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/MYHOME/script/scheme/balance.js"></script>
+
+
+
+
+<script src="/MYHOME/script/bootstarp.js"></script>
+
+
+
+
+
+</body>
+</html>
