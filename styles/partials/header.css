@@ -8,7 +8,6 @@
 #header .menu {
   line-height: 1;
   white-space: nowrap;
-  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 #header .menu--right {
@@ -30,6 +29,6 @@
 @media screen and (max-width: 768px) {
   #header .menu__item {
     font-size: 1.2rem;
-    margin-right: space-small;
+    margin-right: 0.2rem;
   }
 }

@@ -64,7 +64,7 @@ body {
 ::-webkit-scrollbar-thumb {
   border-radius: 3px;
   -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
-  background-color: #a6cbca;
+  background-color: #7bb497;
 }
 @-moz-keyframes slideUp {
   from {
@@ -156,7 +156,6 @@ body {
 #header .menu {
   line-height: 1;
   white-space: nowrap;
-  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 #header .menu--right {
@@ -173,17 +172,17 @@ body {
   display: inline-block;
 }
 #header .menu__item:hover {
-  color: #a6cbca;
+  color: #7bb497;
 }
 @media screen and (max-width: 768px) {
   #header .menu__item {
     font-size: 1.2rem;
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
   }
 }
 main {
   width: 56vw;
-  border-bottom: 0.5px solid #a6cbca;
+  border-bottom: 0.5px solid #7bb497;
   text-align: center;
 }
 @media screen and (max-width: 1200px) {
@@ -216,7 +215,7 @@ main {
   cursor: pointer;
 }
 .list__title::first-letter {
-  color: #a6cbca;
+  color: #7bb497;
 }
 .list__title.closed + .list__list {
   animation: slideUp 0.2s forwards;
@@ -229,7 +228,7 @@ main {
   display: flex;
   align-items: baseline;
   margin-bottom: 1.5rem;
-  border-bottom: 0.5px dashed #a6cbca;
+  border-bottom: 0.5px dashed #7bb497;
 }
 .list__item a {
   flex: 1;
@@ -275,7 +274,7 @@ main {
   font-size: 2rem;
 }
 .post__reference a {
-  color: #a6cbca;
+  color: #7bb497;
 }
 .post__reference a:hover,
 .post__reference a:active {
@@ -306,7 +305,7 @@ main {
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
-  color: #a6cbca;
+  color: #7bb497;
 }
 .post__stat .leancloud-visitors-count {
   letter-spacing: 2px;
@@ -322,7 +321,7 @@ main {
 }
 .post__share,
 .post__top {
-  color: #a6cbca;
+  color: #7bb497;
   margin-right: 0.5rem;
 }
 .post__share:hover,
@@ -359,8 +358,8 @@ main {
   font-family: 'Microsoft Yahei Light';
 }
 .post__content figure {
-  border: 0.5px dotted #a6cbca;
-  border-left: 2px solid #a6cbca;
+  border: 0.5px dotted #7bb497;
+  border-left: 2px solid #7bb497;
   border-radius: 3px;
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;
@@ -452,7 +451,7 @@ main {
   letter-spacing: 2px;
 }
 .block__more:hover {
-  color: #a6cbca;
+  color: #7bb497;
 }
 @media screen and (max-width: 1200px) {
   .block__title {
