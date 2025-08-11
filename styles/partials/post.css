@@ -49,7 +49,7 @@
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
-  color: font-color-light;
+  color: #902818;
 }
 .post__stat .leancloud-visitors-count {
   letter-spacing: 2px;
