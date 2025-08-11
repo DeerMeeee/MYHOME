@@ -25,7 +25,7 @@ alink,
 ahover,
 aactive,
 avisited {
-  color: #7b3b3b;
+  color: #f7f7ee;
   text-decoration: none;
 }
 img {
@@ -44,14 +44,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #7b3b3b;
+  color: #f7f7ee;
   overflow-x: hidden;
 }
 /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background-color: #eed8d4;
+  background-color: #3873b2;
 }
 /*定义滚动条的轨道，内阴影及圆角*/
 ::-webkit-scrollbar-track {
@@ -63,7 +63,7 @@ body {
 ::-webkit-scrollbar-thumb {
   border-radius: 3px;
   -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
-  background-color: #ccc;
+  background-color: #7a9ec0;
 }
 @-moz-keyframes slideUp {
   from {
@@ -162,11 +162,11 @@ body {
 }
 #header .menu__item {
   font: 2rem/1 'Microsoft YaHei UI';
-  color: #7b3b3b;
+  color: #fe6200;
   margin: 0 2rem;
 }
 #header .menu__item:hover {
-  color: #ccc;
+  color: #7a9ec0;
 }
 @media screen and (max-width: 1200px) {
   #header .menu__item {
@@ -175,7 +175,7 @@ body {
 }
 main {
   width: 56vw;
-  border-bottom: 0.5px solid #ccc;
+  border-bottom: 0.5px solid #7a9ec0;
   text-align: center;
 }
 @media screen and (max-width: 1200px) {
@@ -193,7 +193,7 @@ main {
 #footer .social-links {
   display: inline-block;
   margin: 0 0.5rem;
-  color: #666;
+  color: #f7f7ee;
 }
 .list {
   width: 40vw;
@@ -201,14 +201,14 @@ main {
   text-align: left;
 }
 .list__title {
-  font: bold 3rem/1 '方正粗黑宋简体';
-  color: #666;
+  font: bold 3rem/1 'Microsoft YaHei UI';
+  color: #f7f7ee;
   margin: 2rem 0;
   letter-spacing: 3px;
   cursor: pointer;
 }
 .list__title::first-letter {
-  color: #ccc;
+  color: #7a9ec0;
 }
 .list__title.closed + .list__list {
   animation: slideUp 0.2s forwards;
@@ -221,11 +221,11 @@ main {
   display: flex;
   align-items: baseline;
   margin-bottom: 1.5rem;
-  border-bottom: 0.5px dashed #ccc;
+  border-bottom: 0.5px dashed #7a9ec0;
 }
 .list__item a {
   flex: 1;
-  font: 1.5rem/1.5 '方正粗黑宋简体';
+  font: 1.5rem/1.5 'Microsoft YaHei UI';
   letter-spacing: 1px;
 }
 .list__item a:hover {
@@ -234,7 +234,7 @@ main {
 .list__date {
   flex-basis: 10rem;
   font: 1.3rem/1.5 'Microsoft Yahei Light';
-  color: #666;
+  color: #f7f7ee;
   letter-spacing: 2px;
 }
 @media screen and (max-width: 720px) {
@@ -249,15 +249,17 @@ main {
 .post {
   text-align: left;
   margin: 0 0 1.5rem;
+  background-color: #004fa1;
 }
 .post__title,
 .post__subtitle,
 .post__reference {
-  font-family: '方正粗黑宋简体';
+  font-family: 'Microsoft YaHei UI';
   line-height: 1.5;
 }
 .post__title {
   font-size: 5rem;
+  color: #fe6200;
 }
 .post__subtitle {
   font-size: 3rem;
@@ -267,7 +269,7 @@ main {
   font-size: 2rem;
 }
 .post__reference a {
-  color: #ccc;
+  color: #fe6200;
 }
 .post__reference a:hover,
 .post__reference a:active {
@@ -295,7 +297,7 @@ main {
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
-  color: #ccc;
+  color: #fe6200;
 }
 .post__stat .leancloud-visitors-count {
   letter-spacing: 2px;
@@ -311,12 +313,12 @@ main {
 }
 .post__share,
 .post__top {
-  color: #ccc;
+  color: #7a9ec0;
   margin-right: 0.5rem;
 }
 .post__share:hover,
 .post__top:hover {
-  color: #666;
+  color: #f7f7ee;
 }
 .post__share .blogfont,
 .post__top .blogfont {
@@ -324,12 +326,12 @@ main {
   margin-right: 2px;
 }
 .post__toc-text {
-  color: #ccc;
+  color: #7a9ec0;
   font: 1.3rem/1.75 'HP Simplified Light';
   transition: color 0.2s;
 }
 .post__toc-text:hover {
-  color: #7b3b3b;
+  color: #f7f7ee;
 }
 .post__toc-level-2::before {
   content: '·';
@@ -348,8 +350,8 @@ main {
   font-family: 'Microsoft Yahei Light';
 }
 .post__content figure {
-  border: 0.5px dotted #ccc;
-  border-left: 2px solid #ccc;
+  border: 0.5px dotted #7a9ec0;
+  border-left: 2px solid #7a9ec0;
   border-radius: 3px;
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;
@@ -368,7 +370,7 @@ main {
 }
 .post__content p {
   margin-bottom: 1.5rem;
-  color: #666;
+  color: #f7f7ee;
 }
 .post__content p a {
   text-decoration: underline;
@@ -414,8 +416,8 @@ main {
 }
 .block__title {
   display: block;
-  color: #7b3b3b;
-  font: 2.5rem/1.5 '方正粗黑宋简体';
+  color: #f7f7ee;
+  font: 2.5rem/1.5 'Microsoft YaHei UI';
   margin-bottom: 1rem;
   letter-spacing: 1px;
 }
@@ -424,7 +426,7 @@ main {
 }
 .block__date {
   font: bold 1.5rem/2.5 '\5b8b\4f53';
-  color: #666;
+  color: #f7f7ee;
   letter-spacing: 2px;
 }
 .block__description,
@@ -435,13 +437,13 @@ main {
 }
 .block__more {
   display: block;
-  font: bold 1.8rem/1.5 '方正粗黑宋简体';
-  color: #666;
+  font: bold 1.8rem/1.5 'Microsoft YaHei UI';
+  color: #f7f7ee;
   margin: 2rem 0;
   letter-spacing: 2px;
 }
 .block__more:hover {
-  color: #ccc;
+  color: #7a9ec0;
 }
 @media screen and (max-width: 720px) {
   .block__title {
@@ -461,15 +463,15 @@ main {
 }
 .comments .vinput:active,
 .comments .vinput:focus {
-  border-bottom-color: #7b3b3b !important;
+  border-bottom-color: #f7f7ee !important;
 }
 .comments .vbtn:active,
 .comments .vbtn:hover {
-  border-color: #7b3b3b !important;
-  color: #7b3b3b !important;
+  border-color: #f7f7ee !important;
+  color: #f7f7ee !important;
 }
 .comments .vat {
-  color: #666 !important;
+  color: #f7f7ee !important;
 }
 .comments .vsys,
 .comments .vempty,

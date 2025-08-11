@@ -15,7 +15,7 @@
 }
 #header .menu__item {
   font: font-large/1 header-font;
-  color: font-color-dark;
+  color: #fe6200;
   margin: 0 space-large;
 }
 #header .menu__item:hover {
