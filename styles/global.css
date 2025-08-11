@@ -46,6 +46,7 @@ body {
   justify-content: center;
   color: #221814;
   overflow-x: hidden;
+  background: #bdb3a5;
 }
 /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {
@@ -149,6 +150,8 @@ body {
   width: 100%;
   padding: 2rem;
   text-align: center;
+  background: #9f8370;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 #header .menu {
   line-height: 1;
@@ -161,8 +164,8 @@ body {
   margin: 0 1rem;
 }
 #header .menu__item {
-  font: 2rem/1 'Microsoft YaHei UI';
-  color: #221814;
+  font: 1.4rem/1 'Microsoft YaHei UI';
+  color: #bdb3a5;
   margin: 0 2rem;
 }
 #header .menu__item:hover {
@@ -170,8 +173,21 @@ body {
 }
 @media screen and (max-width: 1200px) {
   #header .menu__item {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
+  .site-theme {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.8rem;
+    color: #4e3c30;
+    font-family: 'Bradley Hand ITC', cursive;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #9f8370;
+    padding-bottom: 15px;
+  }
+}
+background #bdb3a5 {
+  box-shadow: ;
 }
 main {
   width: 56vw;
@@ -475,11 +491,4 @@ main {
 .comments .vempty,
 .comments .vpower {
   display: none !important;
-}
-/* 自定义页面背景色 */
-body.home-page {
-  background: #d7cbb2;
-}
-body.archive-page {
-  background: #bed2ba;
 }
