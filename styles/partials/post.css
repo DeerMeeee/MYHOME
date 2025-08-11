@@ -39,10 +39,12 @@
 .post__tag,
 .post__stat {
   margin-right: space-large;
+  color: #902818;
 }
 .post__category .category-link,
 .post__tag .tag-link {
   letter-spacing: 2px;
+  color: #902818 !important;
 }
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
@@ -76,7 +78,7 @@
   margin-right: 2px;
 }
 .post__toc-text {
-  color: font-color-light;
+  color: #902818;
   font: font-smaller/1.75 aside-font-en;
   transition: color 0.2s;
 }

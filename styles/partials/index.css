@@ -35,7 +35,7 @@
 .block__more:hover {
   color: font-color-light;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
   .block__title {
     font-weight: bold;
     font-size: 1.8rem;
