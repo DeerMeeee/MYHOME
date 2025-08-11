@@ -6,7 +6,7 @@
 }
 .block__title {
   display: block;
-  color: #902818;
+  color: font-color-dark;
   font: font-larger/1.5 title-font;
   margin-bottom: space-base;
   letter-spacing: 1px;
