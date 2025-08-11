@@ -16,7 +16,7 @@
   margin: 0 space-base;
 }
 #header .menu__item {
-  font: 1.4rem/1 header-font;
+  font: font-normal/1 header-font;
   color: #bdb3a5;
   margin: 0 space-large;
 }
@@ -28,16 +28,10 @@
     font-size: 1.2rem;
   }
   .site-theme {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1.8rem;
+    text-align: left;
+    font-size: font-large;
     color: #4e3c30;
     font-family: 'Bradley Hand ITC', cursive;
     letter-spacing: 1px;
-    border-bottom: 1px solid #9f8370;
-    padding-bottom: 15px;
   }
-}
-background #bdb3a5 {
-  box-shadow: ;
 }

@@ -164,7 +164,7 @@ body {
   margin: 0 1rem;
 }
 #header .menu__item {
-  font: 1.4rem/1 'Microsoft YaHei UI';
+  font: 1.5rem/1 'Microsoft YaHei UI';
   color: #bdb3a5;
   margin: 0 2rem;
 }
@@ -176,18 +176,12 @@ body {
     font-size: 1.2rem;
   }
   .site-theme {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1.8rem;
+    text-align: left;
+    font-size: 2rem;
     color: #4e3c30;
     font-family: 'Bradley Hand ITC', cursive;
     letter-spacing: 1px;
-    border-bottom: 1px solid #9f8370;
-    padding-bottom: 15px;
   }
-}
-background #bdb3a5 {
-  box-shadow: ;
 }
 main {
   width: 56vw;
@@ -209,7 +203,7 @@ main {
 #footer .social-links {
   display: inline-block;
   margin: 0 0.5rem;
-  color: #666;
+  color: #221814;
 }
 .list {
   width: 40vw;
@@ -217,8 +211,8 @@ main {
   text-align: left;
 }
 .list__title {
-  font: bold 3rem/1 'Microsoft YaHei UI';
-  color: #666;
+  font: bold 3rem/1 'Noto Serif CJK SC';
+  color: #221814;
   margin: 2rem 0;
   letter-spacing: 3px;
   cursor: pointer;
@@ -241,7 +235,7 @@ main {
 }
 .list__item a {
   flex: 1;
-  font: 1.5rem/1.5 'Microsoft YaHei UI';
+  font: 1.5rem/1.5 'Noto Serif CJK SC';
   letter-spacing: 1px;
 }
 .list__item a:hover {
@@ -250,7 +244,7 @@ main {
 .list__date {
   flex-basis: 10rem;
   font: 1.3rem/1.5 'Microsoft Yahei Light';
-  color: #666;
+  color: #221814;
   letter-spacing: 2px;
 }
 @media screen and (max-width: 720px) {
@@ -269,7 +263,7 @@ main {
 .post__title,
 .post__subtitle,
 .post__reference {
-  font-family: 'Microsoft YaHei UI';
+  font-family: 'Noto Serif CJK SC';
   line-height: 1.5;
 }
 .post__title {
@@ -332,7 +326,7 @@ main {
 }
 .post__share:hover,
 .post__top:hover {
-  color: #666;
+  color: #221814;
 }
 .post__share .blogfont,
 .post__top .blogfont {
@@ -355,7 +349,7 @@ main {
   text-indent: 1em;
 }
 .post__content {
-  font: 1.5rem/2 'Microsoft YaHei UI';
+  font: 1.5rem/2 'Noto Serif CJK SC';
 }
 .post__content h2 {
   margin-bottom: 1rem;
@@ -384,7 +378,7 @@ main {
 }
 .post__content p {
   margin-bottom: 1.5rem;
-  color: #666;
+  color: #221814;
 }
 .post__content p a {
   text-decoration: underline;
@@ -431,7 +425,7 @@ main {
 .block__title {
   display: block;
   color: #221814;
-  font: 2.5rem/1.5 'Microsoft YaHei UI';
+  font: 2.5rem/1.5 'Noto Serif CJK SC';
   margin-bottom: 1rem;
   letter-spacing: 1px;
 }
@@ -440,7 +434,7 @@ main {
 }
 .block__date {
   font: bold 1.5rem/2.5 '\5b8b\4f53';
-  color: #666;
+  color: #221814;
   letter-spacing: 2px;
 }
 .block__description,
@@ -451,8 +445,8 @@ main {
 }
 .block__more {
   display: block;
-  font: bold 1.8rem/1.5 'Microsoft YaHei UI';
-  color: #666;
+  font: bold 1.8rem/1.5 'Noto Serif CJK SC';
+  color: #221814;
   margin: 2rem 0;
   letter-spacing: 2px;
 }
@@ -485,7 +479,7 @@ main {
   color: #221814 !important;
 }
 .comments .vat {
-  color: #666 !important;
+  color: #221814 !important;
 }
 .comments .vsys,
 .comments .vempty,
