@@ -42,12 +42,18 @@
   margin-right: space-large;
   color: #902818;
 }
-.post__category .category-link,
+.post__category .category-link {
+  letter-spacing: 2px;
+  color: #902818;
+}
+.post__category .category-link:hover {
+  cursor: pointer;
+  color: font-color-light;
+}
 .post__tag .tag-link {
   letter-spacing: 2px;
   color: #902818;
 }
-.post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
   color: font-color-light;

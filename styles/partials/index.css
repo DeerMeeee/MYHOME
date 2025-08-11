@@ -6,7 +6,7 @@
 }
 .block__title {
   display: block;
-  color: font-color-dark;
+  color: #902818;
   font: font-larger/1.5 title-font;
   margin-bottom: space-base;
   letter-spacing: 1px;
@@ -22,7 +22,7 @@
 .block__description,
 .block__excerpt {
   text-align: center;
-  font: font-small/1.75 text-font-en;
+  font: font-small/1.75 text-font;
   letter-spacing: 5px;
 }
 .block__more {
