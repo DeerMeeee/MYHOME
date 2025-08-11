@@ -1,7 +1,6 @@
 .post {
   text-align: left;
   margin: 0 0 space-normal;
-  background-color: #004fa1;
 }
 .post__title,
 .post__subtitle,
@@ -11,7 +10,6 @@
 }
 .post__title {
   font-size: font-title;
-  color: #fe6200;
 }
 .post__subtitle {
   font-size: font-largest;
@@ -21,7 +19,7 @@
   font-size: font-large;
 }
 .post__reference a {
-  color: #fe6200;
+  color: font-color-light;
 }
 .post__reference a:hover,
 .post__reference a:active {
@@ -49,7 +47,7 @@
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
-  color: #fe6200;
+  color: font-color-light;
 }
 .post__stat .leancloud-visitors-count {
   letter-spacing: 2px;
@@ -122,7 +120,7 @@
 }
 .post__content p {
   margin-bottom: space-normal;
-  color: #f7f7ee;
+  color: font-color-normal;
 }
 .post__content p a {
   text-decoration: underline;
