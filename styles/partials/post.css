@@ -45,11 +45,12 @@
 .post__category .category-link,
 .post__tag .tag-link {
   letter-spacing: 2px;
+  color: #902818;
 }
 .post__category .category-link:hover,
 .post__tag .tag-link:hover {
   cursor: pointer;
-  color: #902818;
+  color: font-color-light;
 }
 .post__stat .leancloud-visitors-count {
   letter-spacing: 2px;
