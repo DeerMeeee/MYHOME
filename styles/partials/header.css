@@ -28,16 +28,6 @@
 position relative {
   padding-bottom: 15px;
 }
-position relative:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 1px;
-  color: #902818;
-}
 .menu--right {
   float: right;
 }
@@ -46,7 +36,7 @@ position relative:after {
   margin: 0 space-base;
 }
 .menu__item {
-  font: font-normal/1 header-font;
+  font: font-larger/1 header-font;
   color: #902818;
   margin: 0 space-large;
   display: inline-block;
