@@ -36,7 +36,7 @@ position relative {
   margin: 0 space-base;
 }
 .menu__item {
-  font: font-larger/1 header-font;
+  font: font-normal/1 header-font;
   color: #902818;
   margin: 0 space-large;
   display: inline-block;

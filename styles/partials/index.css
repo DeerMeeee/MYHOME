@@ -3,15 +3,6 @@
 }
 .block__item {
   margin-bottom: space-larger;
-  position: relative;
-}
-.block__item:not(:last-child):after {
-  content: '';
-  display: block;
-  height: 1px;
-  background: #902818;
-  margin: space-large auto;
-  width: 70%;
 }
 .block__title {
   display: block;
