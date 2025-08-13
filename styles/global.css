@@ -150,28 +150,56 @@ body {
   width: 100%;
   padding: 2rem;
   text-align: center;
-  background: #902818;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+#header .site-title {
+  padding: 10px 0 0;
+}
+#header .site-title h1 {
+  margin: 0;
+  font-size: 5rem;
+  color: #902818;
+  font-family: 'Century Schoolbook', serif;
+}
+#header .header-divider {
+  height: 3px;
+  margin: 15px auto;
+  width: 80%;
+  max-width: 500px;
+  border-top: 1px solid #902818;
+  border-bottom: 1px solid #902818;
+  box-sizing: border-box;
 }
 #header .menu {
   line-height: 1;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
 }
-#header .menu--right {
+position relative {
+  padding-bottom: 15px;
+}
+position relative:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 1px;
+  color: #902818;
+}
+.menu--right {
   float: right;
 }
-#header .menu--right .menu__item {
+.menu--right .menu__item {
   font-size: 1.2rem;
   margin: 0 1rem;
 }
-#header .menu__item {
+.menu__item {
   font: 1.5rem/1 'Microsoft YaHei UI';
-  color: #d1d1cd;
+  color: #902818;
   margin: 0 2rem;
   display: inline-block;
 }
-#header .menu__item:hover {
+.menu__item:hover {
   color: #7bb497;
 }
 @media screen and (max-width: 768px) {
