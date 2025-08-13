@@ -160,12 +160,6 @@ body {
   color: #902818;
   font-family: 'Century Schoolbook', serif;
 }
-#header .site-title--center {
-  text-align: center;
-}
-#header .site-title--center h1 {
-  font-size: 1.2rem;
-}
 #header .header-divider {
   height: 3px;
   margin: 15px auto;
@@ -213,12 +207,10 @@ main {
   content: '';
   width: 100%;
   height: 100vh;
-  border: 5px solid #902818 /* 完整边框属性 */;
+  border: 5px solid #902818 !important;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   pointer-events: none;
   z-index: 8;
 }
