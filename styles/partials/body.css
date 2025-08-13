@@ -3,13 +3,11 @@ main {
   border-bottom: border-width solid border-color;
   text-align: center;
 }
-mask-border::before {
+.mask-border::before {
   content: '';
   width: 100%;
   height: 100vh;
-  border: 2px;
-}
-color #902818 {
+  border: 1px solid #902818 /* 完整边框属性 */;
   position: fixed;
   top: 0;
   left: 0;
