@@ -3,24 +3,6 @@ main {
   border-bottom: border-width solid border-color;
   text-align: center;
 }
-.mask-border::before {
-  content: '';
-  width: 100%;
-  height: 100vh;
-  border: 5px solid #902818;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0 !important;
-  bottom: 0 !important;
-  pointer-events: none;
-  z-index: 8;
-}
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 @media screen and (max-width: 1200px) {
   main {
     width: 80vw;
