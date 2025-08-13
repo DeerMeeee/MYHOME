@@ -207,7 +207,7 @@ main {
   content: '';
   width: 100%;
   height: 100vh;
-  border: 1px solid #902818 /* 完整边框属性 */;
+  border: 4px solid #902818 /* 完整边框属性 */;
   position: fixed;
   top: 0;
   left: 0;
@@ -463,7 +463,7 @@ main {
 }
 .block__date {
   font: bold 1.5rem/2.5 '\5b8b\4f53';
-  color: #1c3742;
+  color: #902818;
   letter-spacing: 2px;
 }
 .block__description,

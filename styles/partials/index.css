@@ -16,7 +16,7 @@
 }
 .block__date {
   font: bold font-normal/2.5 aside-font;
-  color: font-color-normal;
+  color: #902818;
   letter-spacing: 2px;
 }
 .block__description,
