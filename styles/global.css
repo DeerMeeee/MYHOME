@@ -462,6 +462,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  font-size: inherit;
 }
 .parent-container .block__description,
 .parent-container .block__excerpt {
@@ -472,6 +473,7 @@ main {
   font: 1.4rem/1.75 'Noto Serif SC', serif, -apple-system, sans-serif;
   letter-spacing: 5px;
   word-wrap: break-word;
+  vertical-align: top;
 }
 .block__more {
   display: block;
