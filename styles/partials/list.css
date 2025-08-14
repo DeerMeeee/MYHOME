@@ -24,7 +24,7 @@
   display: flex;
   align-items: baseline;
   margin-bottom: space-normal;
-  border-bottom: border-width dashed border-color;
+  border-bottom: border-width dashed #902818;
 }
 .list__item a {
   flex: 1;

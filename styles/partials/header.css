@@ -15,11 +15,12 @@
 #header .header-divider {
   height: 3px;
   margin: 15px auto;
-  width: 80%;
-  max-width: 500px;
+  display: block;
   border-top: 1px solid #902818;
   border-bottom: 1px solid #902818;
   box-sizing: border-box;
+  max-width: 1200px;
+  width: 80%;
 }
 #header .menu {
   line-height: 1;
@@ -47,5 +48,8 @@ position relative {
 @media screen and (max-width: 768px) {
   #header .menu__item {
     font-size: 1.2rem;
+  }
+  .header-divider {
+    width: 90%;
   }
 }

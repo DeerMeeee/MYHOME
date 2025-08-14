@@ -46,7 +46,7 @@ body {
   justify-content: center;
   color: #2d5a5a;
   overflow-x: hidden;
-  background: #d1d1cd;
+  background: #e6d3be;
 }
 /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {
@@ -162,11 +162,12 @@ body {
 #header .header-divider {
   height: 3px;
   margin: 15px auto;
-  width: 80%;
-  max-width: 500px;
+  display: block;
   border-top: 1px solid #902818;
   border-bottom: 1px solid #902818;
   box-sizing: border-box;
+  max-width: 1200px;
+  width: 80%;
 }
 #header .menu {
   line-height: 1;
@@ -194,6 +195,9 @@ position relative {
 @media screen and (max-width: 768px) {
   #header .menu__item {
     font-size: 1.2rem;
+  }
+  .header-divider {
+    width: 90%;
   }
 }
 main {
@@ -244,7 +248,7 @@ main {
   display: flex;
   align-items: baseline;
   margin-bottom: 1.5rem;
-  border-bottom: 0.5px dashed #7bb497;
+  border-bottom: 0.5px dashed #902818;
 }
 .list__item a {
   flex: 1;
@@ -453,8 +457,16 @@ main {
   color: #902818;
   letter-spacing: 2px;
 }
-.block__description,
-.block__excerpt {
+.parent-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.parent-container .block__description,
+.parent-container .block__excerpt {
+  display: inline-block;
+  max-width: 100%;
   text-align: center;
   font: 1.4rem/1.75 'Noto Serif SC', serif, -apple-system, sans-serif;
   letter-spacing: 5px;
@@ -473,6 +485,9 @@ main {
   .block__title {
     font-weight: bold;
     font-size: 1.8rem;
+  }
+  .parent-container {
+    width: 90%;
   }
 }
 .comments {
