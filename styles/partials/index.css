@@ -19,23 +19,13 @@
   color: #902818;
   letter-spacing: 2px;
 }
-.parent-container {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: inherit;
-}
-.parent-container .block__description,
-.parent-container .block__excerpt {
-  display: inline-block;
+.block__description,
+.block__excerpt {
   max-width: 600px;
   width: auto;
   text-align: center;
-  font: 1.4rem/1.75 text-font;
+  font: font-small/1.75 text-font;
   letter-spacing: 5px;
-  word-wrap: break-word;
-  vertical-align: top;
 }
 .block__more {
   display: block;

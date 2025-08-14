@@ -19,8 +19,8 @@
   border-top: 1px solid #902818;
   border-bottom: 1px solid #902818;
   box-sizing: border-box;
-  max-width: 1200px;
-  width: 80%;
+  max-width: 600px;
+  width: auto;
 }
 #header .menu {
   line-height: 1;

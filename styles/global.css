@@ -46,7 +46,7 @@ body {
   justify-content: center;
   color: #2d5a5a;
   overflow-x: hidden;
-  background: #d6cbba;
+  background: #fbf1d6;
 }
 /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {
@@ -166,8 +166,8 @@ body {
   border-top: 1px solid #902818;
   border-bottom: 1px solid #902818;
   box-sizing: border-box;
-  max-width: 1200px;
-  width: 80%;
+  max-width: 600px;
+  width: auto;
 }
 #header .menu {
   line-height: 1;
@@ -457,23 +457,13 @@ main {
   color: #902818;
   letter-spacing: 2px;
 }
-.parent-container {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: inherit;
-}
-.parent-container .block__description,
-.parent-container .block__excerpt {
-  display: inline-block;
+.block__description,
+.block__excerpt {
   max-width: 600px;
   width: auto;
   text-align: center;
   font: 1.4rem/1.75 'Noto Serif SC', serif, -apple-system, sans-serif;
   letter-spacing: 5px;
-  word-wrap: break-word;
-  vertical-align: top;
 }
 .block__more {
   display: block;
