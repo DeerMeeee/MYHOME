@@ -46,7 +46,7 @@ body {
   justify-content: center;
   color: #2d5a5a;
   overflow-x: hidden;
-  background: #efebce;
+  background: #f4eeeb;
 }
 /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {
@@ -195,9 +195,6 @@ position relative {
 @media screen and (max-width: 768px) {
   #header .menu__item {
     font-size: 1.2rem;
-  }
-  .header-divider {
-    width: 90%;
   }
 }
 main {
@@ -480,9 +477,6 @@ main {
   .block__title {
     font-weight: bold;
     font-size: 1.8rem;
-  }
-  .parent-container {
-    width: 90%;
   }
 }
 .comments {
