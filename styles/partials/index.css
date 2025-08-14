@@ -7,7 +7,7 @@
 .block__title {
   display: block;
   color: font-color-dark;
-  font: font-larger/1.5 title-font;
+  font: font-largest/1.5 title-font;
   margin-bottom: space-base;
   letter-spacing: 1px;
 }
@@ -25,7 +25,7 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  font: font-small/1.75 text-font;
+  font: font-normal/1.75 text-font;
   letter-spacing: 5px;
 }
 .block__more {
