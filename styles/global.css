@@ -46,7 +46,7 @@ body {
   justify-content: center;
   color: #2d5a5a;
   overflow-x: hidden;
-  background: #fbf1d6;
+  background: #efebce;
 }
 /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {
@@ -166,7 +166,7 @@ body {
   border-top: 1px solid #902818;
   border-bottom: 1px solid #902818;
   box-sizing: border-box;
-  max-width: 600px;
+  max-width: 800px;
   width: auto;
 }
 #header .menu {
@@ -459,8 +459,9 @@ main {
 }
 .block__description,
 .block__excerpt {
-  max-width: 600px;
-  width: auto;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
   font: 1.4rem/1.75 'Noto Serif SC', serif, -apple-system, sans-serif;
   letter-spacing: 5px;

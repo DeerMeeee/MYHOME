@@ -21,8 +21,9 @@
 }
 .block__description,
 .block__excerpt {
-  max-width: 600px;
-  width: auto;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
   font: font-small/1.75 text-font;
   letter-spacing: 5px;
