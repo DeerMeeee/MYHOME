@@ -310,8 +310,12 @@ main {
 }
 .post__category,
 .post__tag,
-.post__stat,
 .hyvor-comment-count {
+  margin-right: 2rem;
+  color: #902818;
+  display: inline-block;
+}
+.post__stat {
   margin-right: 2rem;
   color: #902818;
 }

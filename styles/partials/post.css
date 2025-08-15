@@ -38,8 +38,12 @@
 }
 .post__category,
 .post__tag,
-.post__stat,
 .hyvor-comment-count {
+  margin-right: space-large;
+  color: #902818;
+  display: inline-block;
+}
+.post__stat {
   margin-right: space-large;
   color: #902818;
 }
