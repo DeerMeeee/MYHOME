@@ -39,7 +39,7 @@
 .post__category,
 .post__tag,
 .post__stat,
-.post__commentcount {
+.hyvor-comment-count {
   margin-right: space-large;
   color: #902818;
 }
@@ -128,9 +128,6 @@
 }
 .post__content p a {
   text-decoration: underline;
-}
-.hyvor-talk-container {
-  transform: scale(1.5);
 }
 @media screen and (max-width: 1200px) {
   .post__title,
