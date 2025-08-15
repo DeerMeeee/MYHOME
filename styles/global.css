@@ -442,6 +442,7 @@ main {
 .block__title {
   display: block;
   color: #2d5a5a;
+  font-weight: bold;
   font: 3rem/1.5 'Noto Serif SC', serif, -apple-system, sans-serif;
   margin-bottom: 1rem;
   letter-spacing: 1px;
