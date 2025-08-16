@@ -96,7 +96,7 @@
   text-indent: 1em;
 }
 .post__content {
-  font: font-large/2 text-font;
+  font: 1.6rem/2 text-font;
 }
 .post__content h2 {
   margin-bottom: space-base;

@@ -368,7 +368,7 @@ main {
   text-indent: 1em;
 }
 .post__content {
-  font: 2rem/2 'Noto Serif SC', serif, -apple-system, sans-serif;
+  font: 1.6rem/2 'Noto Serif SC', serif, -apple-system, sans-serif;
 }
 .post__content h2 {
   margin-bottom: 1rem;
