@@ -311,7 +311,7 @@ main {
 .post__category,
 .post__tag,
 .hyvor-comment-count,
-.post-wordcount,
+.post-count,
 .post__stat {
   margin-right: 2rem;
   color: #902818;
