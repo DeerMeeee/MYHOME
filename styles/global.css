@@ -311,6 +311,7 @@ main {
 .post__category,
 .post__tag,
 .hyvor-comment-count,
+.post-wordcount,
 .post__stat {
   margin-right: 2rem;
   color: #902818;
@@ -401,8 +402,9 @@ main {
 .post__content p a {
   text-decoration: underline;
 }
-.hyvor-talk-container {
-  font: 1.5rem;
+.fa-pen-to-square,
+.fa-snowflake {
+  color: #902818;
 }
 @media screen and (max-width: 1200px) {
   .post__title,
