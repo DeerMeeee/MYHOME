@@ -310,11 +310,7 @@ main {
 }
 .post__category,
 .post__tag,
-.hyvor-comment-count {
-  margin-right: 2rem;
-  color: #902818;
-  display: inline-block;
-}
+.hyvor-comment-count,
 .post__stat {
   margin-right: 2rem;
   color: #902818;
@@ -405,6 +401,9 @@ main {
 .post__content p a {
   text-decoration: underline;
 }
+.hyvor-talk-container {
+  font: 1.5rem;
+}
 @media screen and (max-width: 1200px) {
   .post__title,
   .post__subtitle,
@@ -423,6 +422,13 @@ main {
   .post__meta {
     font-size: 1.2rem;
     line-height: 1.75;
+  }
+  .hyvor-talk-comment-count {
+    display: inline-flex;
+    align-items: center;
+  }
+  .hyvor-talk-comment-count::part(count) {
+    font-size: 1.2rem;
   }
   .post__aside {
     display: none;

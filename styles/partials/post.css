@@ -38,11 +38,7 @@
 }
 .post__category,
 .post__tag,
-.hyvor-comment-count {
-  margin-right: space-large;
-  color: #902818;
-  display: inline-block;
-}
+.hyvor-comment-count,
 .post__stat {
   margin-right: space-large;
   color: #902818;
@@ -133,6 +129,9 @@
 .post__content p a {
   text-decoration: underline;
 }
+.hyvor-talk-container {
+  font: font-normal;
+}
 @media screen and (max-width: 1200px) {
   .post__title,
   .post__subtitle,
@@ -151,6 +150,13 @@
   .post__meta {
     font-size: font-smallest;
     line-height: 1.75;
+  }
+  .hyvor-talk-comment-count {
+    display: inline-flex;
+    align-items: center;
+  }
+  .hyvor-talk-comment-count::part(count) {
+    font-size: font-smallest;
   }
   .post__aside {
     display: none;
