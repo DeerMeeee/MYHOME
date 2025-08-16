@@ -423,13 +423,6 @@ main {
     font-size: 1.2rem;
     line-height: 1.75;
   }
-  .hyvor-talk-comment-count {
-    display: inline-flex;
-    align-items: center;
-  }
-  .hyvor-talk-comment-count::part(count) {
-    font-size: 1.2rem;
-  }
   .post__aside {
     display: none;
   }

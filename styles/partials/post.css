@@ -151,13 +151,6 @@
     font-size: font-smallest;
     line-height: 1.75;
   }
-  .hyvor-talk-comment-count {
-    display: inline-flex;
-    align-items: center;
-  }
-  .hyvor-talk-comment-count::part(count) {
-    font-size: font-smallest;
-  }
   .post__aside {
     display: none;
   }
