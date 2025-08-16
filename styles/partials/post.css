@@ -54,7 +54,7 @@
   cursor: pointer;
   color: font-color-light;
 }
-.post__stat .leancloud-visitors-count {
+.post__stat {
   letter-spacing: 2px;
 }
 .post__aside {

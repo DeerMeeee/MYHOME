@@ -326,7 +326,7 @@ main {
   cursor: pointer;
   color: #538c78;
 }
-.post__stat .leancloud-visitors-count {
+.post__stat {
   letter-spacing: 2px;
 }
 .post__aside {
