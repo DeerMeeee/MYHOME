@@ -4,7 +4,7 @@
   src: url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.woff2") format('woff2'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.woff") format('woff'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.ttf") format('truetype'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.svg#Blogfont") format('svg');
 }
 .blogfont {
-  font-family: "Blogfont" !important;
+  font-family: "Blogfont";
   font-size: 1.5rem;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
