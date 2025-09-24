@@ -6,7 +6,7 @@
   <link href="https://deermeeee.github.io/MYHOME/atom.xml" rel="self"/>
   
   <link href="https://deermeeee.github.io/MYHOME/"/>
-  <updated>2025-09-06T16:00:00.000Z</updated>
+  <updated>2025-09-23T16:00:00.000Z</updated>
   <id>https://deermeeee.github.io/MYHOME/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Hexo博客框架搭建静态博客网站</title>
+    <link href="https://deermeeee.github.io/MYHOME/2025/09/24/%E7%94%A8hexo%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/"/>
+    <id>https://deermeeee.github.io/MYHOME/2025/09/24/%E7%94%A8hexo%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</id>
+    <published>2025-09-23T16:00:00.000Z</published>
+    <updated>2025-09-23T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>以下将介绍如何使用Hexo搭建静态博客框架，并将其部署于Github Pages生成博客网页。全过程无需自行购买域名与服务器。</p><h1 id="需要准备的工具"><a href="#需要准备的工具" class="headerlink" title="需要准备的工具"></a>需要准备的工具</h1><ul><li><p><strong>Hexo</strong> <a href="https://hexo.io/zh-cn/">Hexo官网</a> ←博客皮肤可以在里面选择  </p></li><li><p><strong>Github</strong> <a href="https://github.com/">Github官网</a> 要建立一个库（repository）</p></li><li><p>安装Node.js（Hexo 依赖） <a href="https://nodejs.org/zh-cn">Node.js官网</a><br>安装后在cmd检查是否安装成功：<br>  node -v  #显示版本号即成功<br>  npm -v</p></li><li><p>安装Git <a href="https://git-scm.cn/downloads">Git官网</a><br>🌟默认路径安装，不要改！<br>（安装包下载慢的问题可以尝试换用Chrome浏览器解决。）</p></li></ul><h1 id="开始吧！"><a href="#开始吧！" class="headerlink" title="开始吧！"></a>开始吧！</h1><h2 id="搭建Github-repository并clone至本地"><a href="#搭建Github-repository并clone至本地" class="headerlink" title="搭建Github repository并clone至本地"></a>搭建Github repository并clone至本地</h2><p><a href="https://blog.csdn.net/A1_3_9_7/article/details/144674444?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-144674444-blog-149396411.235%5Ev43%5Epc_blog_bottom_relevance_base1&spm=1001.2101.3001.4242.1&utm_relevant_index=3">一个非常详细的Github使用&#x2F;上传作品的指南</a><br>⬆️ 链接详细介绍了如何获取SSH密钥并配置至GitHub。配置了SSH密钥，就可以免密执行<code>git push</code>（注：git部署操作请参考以上链接，本文仅讨论基于Hexo博客框架下如何进行内容部署）</p><h2 id="初始化Hexo项目"><a href="#初始化Hexo项目" class="headerlink" title="初始化Hexo项目"></a>初始化Hexo项目</h2><blockquote><p>以下全部均在根目录&#x2F;Github&#x2F;xxxx完成！在根目录右键选择”Open Git Bash Here”以输入指令。</p></blockquote><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><pre><code># 安装Hexo命令行工具npm install -g hexo-cli</code></pre><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><p>hexo init要求在根目录内安装，且必须是<strong>空白文件夹</strong>，但如果按照本文顺序操作，此时读者应该已经完成GitHub仓库克隆到本地的操作，根目录内已生成README.md文件，导致无法在根目录内完成安装工作。此时可以通过新建空白文件夹安装后再拷贝回根目录的方法解决。（理论上也可以先把README.md文件移走，待完成初始化后再移回，但我试过貌似不work）<br>    hexo init<br>    npm install</p><p><strong>至此，你已经完成了整个博客的基本框架搭建！！！恭喜你！！！</strong>👏🏻👏🏻👏🏻</p><p>现在可以到Hexo官网选择喜欢的皮肤，并根据发布者提供的指引进行安装以及个性化修改~<br>推荐两个皮肤，都是非常成熟，功能超多的，但体感自定义空间较少…<br><a href="https://butterfly.js.org/">Butterfly</a><br><a href="https://www.haomwei.com/technology/maupassant-hexo.html">maupassant</a></p><h1 id="文章部署流程"><a href="#文章部署流程" class="headerlink" title="文章部署流程"></a>文章部署流程</h1><h2 id="内容编辑"><a href="#内容编辑" class="headerlink" title="内容编辑"></a>内容编辑</h2><ol><li>hexo new “文件名”</li></ol><p><code>hexo new “文件名”</code></p><p>运行后将在source&#x2F;_posts&#x2F;中生成对应的.md文件。  </p><p><strong>创建tags页</strong>（categories、about页同理）</p><p><code>hexo new page tags</code></p><ol start="2"><li><p>Markdown语法编辑文本  </p><hr><h2 id="title-剩下一个人的话-date-2025-07-25-20-39-53-tags-categories"><a href="#title-剩下一个人的话-date-2025-07-25-20-39-53-tags-categories" class="headerlink" title=" title: 剩下一个人的话 date: 2025-07-25 20:39:53 tags: [,] categories: "></a> title: 剩下一个人的话<br> date: 2025-07-25 <del>20:39:53</del><br> tags: [,]<br> categories: </h2></li></ol><p>⬆️ Frountmatter，建议把“date”的时间删除，仅留下日期，因为comfig文件内没有时间配置，无法识别时间，导致部署报错。<br>“tags”、“categories”等可以自定义，Hexo会根据文章的tags自动汇总所有标签，并生成标签页（需主题支持）。<br><a href="https://markdown.com.cn/">Markdown语法学习</a></p><h2 id="上传步骤"><a href="#上传步骤" class="headerlink" title="上传步骤"></a>上传步骤</h2><ol><li>hexo clean</li></ol><p><code>hexo clean</code></p><p>运行后清理旧的pubilc&#x2F;文件。</p><ol start="2"><li>hexo g&#x2F;hexo generate</li></ol><p><code>hexo g</code></p><p>运行后会将.md文件编译为 <strong>HTML、CSS、JS 等静态资源</strong>，输出到public&#x2F;文件夹。只有public&#x2F;中的文件才能被部署到 GitHub Pages。<br>pubilc&#x2F;中的文件包含核心文件和资源文件：  </p><p>核心文件：</p><pre><code>public/├── index.html                # 博客首页├── archives/                 # 归档目录│   └── index.html            # 归档页├── tags/                     # 标签目录│   └── index.html            # 标签列表页│   └── [标签名]/index.html   # 单个标签下的文章列表├── categories/               # 分类目录│   └── index.html            # 分类列表页│   └── [分类名]/index.html   # 单个分类下的文章列表</code></pre><p>资源文件：</p><pre><code>public/├── css/                      # CSS 样式文件├── js/                       # JavaScript 文件├── images/                   # 图片资源（来自 source/images/）└── favicon.ico               # 网站图标</code></pre><p><strong>source&#x2F;_posts&#x2F;中的文件不可以清空！</strong></p><ol start="3"><li>hexo d&#x2F;hexo deploy</li></ol><p><code>hexo d</code></p><p>运行后即把文章部署到GitHub。（首次部署会要求输入 GitHub 账号密码）</p><p>至此，文章已经可以在你的静态博客网页看到你发布的文章啦！<br>可以选择<a href="https://markdown.com.cn/">Vercel</a>托管部署（但网页需要梯子才能打开），也可以直接使用Github Pages（在repository的界面找到Settings–Pages）节约开发成本。</p><h1 id="可能会用到的网站"><a href="#可能会用到的网站" class="headerlink" title="可能会用到的网站"></a>可能会用到的网站</h1><ul><li>适配Markdown语法的emoji网站：<a href="https://emojipedia.org/">https://emojipedia.org/</a>  </li><li>远程调用网页图标的icon库：<a href="https://fontawesome.com/?o=r">https://fontawesome.com/?o=r</a> （需把icon云库的地址配置进皮肤文件内以调用）  </li><li>十分方便好用的评论区模块<a href="https://talk.hyvor.com/">Hyvor talk</a>，但要花钱（气晕了）  </li><li>完全开源的一个评论区模块<a href="https://remark42.com/">Remark42</a>，但我还没研究出来怎么安装配置（目移</li><li>文章字数统计Hexo插件与配置：<a href="https://github.com/willin/hexo-wordcount">https://github.com/willin/hexo-wordcount</a></li></ul>]]></content>
+    
+    
+    <summary type="html">本网站从从2025年7月25日开始搭建至今，虽然评论区已经过了限免期（Hyvor Talk是真的简单好上手，我为他正名），于是决定把在Notion总结的经验文章发布到网站上，记录此刻。</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://deermeeee.github.io/MYHOME/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://deermeeee.github.io/MYHOME/tags/Hexo/"/>
+    
+    <category term="经验分享" scheme="https://deermeeee.github.io/MYHOME/tags/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>AO3 Skin-UglyNeon</title>
